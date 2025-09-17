@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Netflix Brasil</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="#">
+                    <img src="img/logo netflix.jpg" alt="Netflix Logo" class="logo">
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Series</a></li>
+                    <li><a href="#">Filmes</a></li>
+                    <li><a href="#">Bombando</a></li>
+                    <li><a href="#">Minha lista</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#">Juninho</a>
+                <a href="#"><i class="fas fas-bell"></i></a>
+                <a href="#"><img src="img/usuario.jpg" alt="User" class="user-avatar"></a>
+                <a href="#"><i class="fas fa-caret-down"></i></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="carousel-section">
+            <h2>Series comicas</h2>
+            <div class="carousel">
+                <div class="carousel-item"><img src="img/breakingbad.jpg" alt="Serie 1"></div>
+                <div class="carousel-item"><img src="img/round6.jpg" alt="Serie 2"></div>
+                <div class="carousel-item"><img src="img/noite.jpg" alt="Serie 3"></div>
+                <div class="carousel-item"><img src="img/avatar.jpg" alt="Serie 4"></div>
+                <div class="carousel-item"><img src="img/arrow.jpg" alt="Serie 5"></div>
+                <div class="carousel-item"><img src="img/papel.jpg" alt="Serie 6"></div>
+            </div>
+        </section>
+        <section class="carousel-section">
+            <h2>Principais escolhas para você</h2>
+            <div class="carousel">
+                <div class="carousel-item"><img src="img/cidadeperdida.jpg" alt="Filme 1"></div>
+                <div class="carousel-item"><img src="img/mercyblack.jpg" alt="Filme 2"></div>
+                <div class="carousel-item"><img src="img/umbrella.jpg" alt="Filme 3"></div>
+                <div class="carousel-item"><img src="img/lua.jpg" alt="Filme 4"></div>
+                <div class="carousel-item"><img src="img/meaculpa.jpg" alt="Filme 5"></div>
+                <div class="carousel-item"><img src="img/marlon.jpg" alt="Filme 6"></div>
+            </div>
+        </section>
+        <section class="carousel-section">
+            <h2>Filmes empolgantes</h2>
+            <div class="carousel">
+                <div class="carousel-item"><img src="img/evil.jpg" alt="Ação 1"></div>
+                <div class="carousel-item"><img src="img/gladiador.jpg" alt="Ação 2"></div>
+                <div class="carousel-item"><img src="img/spider man.jpg" alt="Ação 3"></div>
+                <div class="carousel-item"><img src="img/maria.jpg" alt="Ação 4"></div>
+                <div class="carousel-item"><img src="img/uncharted.jpg" alt="Ação 5"></div>
+                <div class="carousel-item"><img src="img/resgate.jpg" alt="Ação 6"></div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Recreador de Interface - Netflix</title>
+</head>
+<body>
+    <div class="netflix-container">
+        <div class="top-bar">
+            <img src="img/logo netflix.jpg" alt="Netflix Logo" class="netflix-logo">
+            <div class="nav-links">
+                <a href="#">Inicio</a>
+                <a href="#">Series</a>
+                <a href="#">Filmes</a>
+                <a href="#">Bombando</a>
+                <a href="#">Minha Lista</a>
+            </div>
+            <div class="user-section">
+                <input type="text" placeholder="Pesquisar" disabled>
+                <button class="profile-btn" disabled>
+                    <img src="img/usuario.jpg" alt="Profile">
+                </button>
+                <button class="logout-btn" disabled>Sair</button>
+            </div>
+        </div>
+        <div class="main-banner">
+            <div class="banner-content">
+                <h1>Filme ou Serie em Destaque</h1>
+                <p>Assistindo agora: Uma descrição épica do conteudo mais recente.</p>
+                <button class="play-btn" disabled>Reproduzir</button>
+                <button class="info-btn" disabled>Mais Informação</button>
+            </div>
+            <img src="img/trailer.jpg" alt="Banner" class="banner-image">
+        </div>
+        <div class="content-sections">
+            <h2 class="section-title">Continuar</h2>
+            <div class="content-row">
+                <div class="content-card">
+                    <img src="img/uncharted.jpg" alt="Thumbnail" class="thumbnail">
+                    <p>Titulo 1</p>
+                </div>
+                <div class="content-card">
+                    <img src="img/breakingbad.jpg" alt="Thumbnail" class="thumbnail">
+                    <p>Titulo 2</p>
+                </div>
+                <div class="content-card">
+                    <img src="img/evil.jpg" alt="Thumbnail" class="thumbnail">
+                    <p>Titulo 3</p>
+                </div>
+                <div class="content-card">
+                    <img src="img/papel.jpg" alt="Thumbnail" class="thumbnail">
+                    <p>Titulo 4</p>
+                </div><div class="content-card">
+                    <img src="img/gladiador.jpg" alt="Thumbnail" class="thumbnail">
+                    <p>Titulo 5</p>
+                </div><div class="content-card">
+                    <img src="img/umbrella.jpg" alt="Thumbnail" class="thumbnail">
+                    <p>Titulo 6</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-links">
+                <a href="#">Perguntas Frenquentes</a>
+                <a href="#">Relações com Investidores</a>
+                <a href="#">Formas de Assistir</a>
+                <a href="#">Informações Corporativas</a>
+            </div>
+            <div class="footer-legal">
+                <a href="#">Privacidade</a>
+                <a href="#">Termos de Uso</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
